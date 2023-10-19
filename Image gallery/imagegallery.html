@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+    <link rel="stylesheet" href="./imagegallery.css">
+</head>
+<body>
+    <div class="heading">
+        <h2>Image Gallery</h2>
+    </div>
+    <div class="full-img" id="fullimgbox">
+        <img src="./img/airballon.jpg" alt="img" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+
+    </div>
+    <div class="img-gallery">
+        <img src="./img/airballon.jpg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/beach.jpg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/tower.jpg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/mountainhouse.jpeg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/seahouse.jpeg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/snow.jpg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/street.jpg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/boat.jpeg" alt="img" onclick="openfullimg(this.src)">
+        <img src="./img/volcano.jpg" alt="img" onclick="openfullimg(this.src)">
+    </div>
+    
+    <script src="./imagegallery.js"></script>
+</body>
+</html>

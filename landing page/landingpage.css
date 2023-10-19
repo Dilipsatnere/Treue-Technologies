@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.heading{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.carousel-item img{
+    max-height: 95vh;
+}
+
+.category {
+    height: 250px;
+    width: 100% ;
+     padding: 10px;
+    margin: 15px;
+    
+}
+
+.category:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1); orientation: 15 degree;
+    cursor: pointer;
+    border: red 2px solid;
+}
+
+.head{
+    text-align: center; 
+}
+
+
+ul{
+    float: right;
+}
+
+ .footer{
+    text-align: center;
+    
+} 
+
+.types1{
+    float: left;
+    text-align: left;
+}
+
+.types2{
+    float: right;
+    text-align: left;
+}
+
+.types3{
+    float: left;
+    text-align: left;
+}
+
+.sm col-4{
+    border: 2px blue solid;
+} 

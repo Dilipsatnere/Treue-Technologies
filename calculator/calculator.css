@@ -1,0 +1,45 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.heading{
+    text-align: center;
+    top: 0;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.container {
+
+    margin: auto;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+    border: black 2px solid;
+    
+   
+}
+
+button {
+   
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 50px;
+    color: black;
+
+
+}
+
+input {
+    width: 250px;
+    height: 75px;
+    border-radius: 15px;
+    color: black;
+    text-align: right;
+    text-size-adjust: 30px;
+}

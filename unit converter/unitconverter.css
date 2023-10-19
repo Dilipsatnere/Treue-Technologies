@@ -1,0 +1,26 @@
+
+.heading{
+    text-align: center;
+}
+.container{
+    max-height: 500px;
+    max-width: 500px;
+    background-color: rgb(184, 120, 175);
+    align-items: center;
+    padding: 60px;
+    margin-left: 25px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    border: black solid 2px;
+    
+}
+
+.incomes{
+ text-align: center;
+ size: 50px;
+}
+
+input{
+    size: 80px;
+}
